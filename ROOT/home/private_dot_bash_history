@@ -1,0 +1,76 @@
+cd ~
+git init --bare $HOME/dotfiles
+cd dotfiles/
+git branch
+git branch -m main
+git log
+git status
+nano ~/.bashrc
+source ~/.bashrc
+config config --local status.showUntrackedFiles no
+which git
+nano ~/.bashrc
+source ~/.bashrc
+config config --local status.showUntrackedFiles no
+nano ~/.config/nvim/init.vim 
+config add ~/.config/nvim/init.vim 
+config commit -m "nvim: add config"
+config status
+cd ..
+config status
+config push
+cd dotfiles/
+git remote -v
+git remote add origin https://github.com/i2/dotfilres_bare.git
+config push
+config push --set-upstream origin main
+config push --set-upstream origin main
+git remote del origin
+git remote remove origin
+git remote add origin git@github.com:i2/dotfiles_bare.git
+config push --set-upstream origin main
+chmod 600 ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa
+ls -al ~/.ssh/id_rsa
+config push --set-upstream origin main
+ls -al ~/.ssh/id_rsa
+ls -al ~/.ssh/id_rsa*
+sudo chown nixos ~/.ssh/id_rsa*
+config push --set-upstream origin main
+cd ..
+nano ~/.config/nvim/init.vim 
+config status
+config commit -m ll
+config add /etc/os-release 
+nano ~/.bashrc 
+source ~/.bashrc 
+configr add /etc/os-release 
+configr status
+config status
+config add .
+cd ~/dotfiles/
+ls -al
+git status
+cd ..
+config commit -m "add files even from root"
+config push
+git push -f HEAD~1
+cd dotfiles/
+git push -f HEAD~1
+git push -d HEAD~1
+git reset --hard HEAD~1
+config reset --hard HEAD~1
+git reset --hard HEAD^
+git
+nix-env -i git
+git
+git reset --hard HEAD^
+ls
+ls -al
+nano ~/.bashrc
+ls -al ~
+git init --bare $HOME/.cfg
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=/'
+config config --local status.showUntrackedFiles no
+which git
+exit
